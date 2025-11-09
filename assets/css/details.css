@@ -1,0 +1,66 @@
+img.thumb {
+    width: 20em;
+    object-fit: cover;
+}
+
+img.config {
+    width: 8em;
+    object-fit: cover;
+}
+
+a {
+    text-decoration: none;
+    border-bottom: none;
+}
+
+.configration {
+    display: flex;
+    background-color: aliceblue;
+    margin: 1.3em;
+    padding: 1em;
+    text-align: left;
+    border-radius: 0.5em;
+    /* align-items:center; */
+}
+.configration img{
+    margin-right: 2em;
+    float: left;
+    width: 8em;
+    object-fit: contain;
+    vertical-align: bottom;
+}
+
+.config-content {
+    width: 100%;
+    text-align: left;
+    margin-left: 1em;
+    color: black;
+}
+
+.config-content h4 {
+    text-align: center;
+    color: darkgray
+}
+
+img.thumb-cell {
+    max-width: 100%;
+    min-width: 20em;
+    max-height: 14em;
+    height: auto;
+    object-fit: contain;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.thumb {
+    margin: 0.3em;
+    padding: 0.3em;
+    border-radius: 0.3em;
+    background-color: aliceblue;
+}
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 2em 0 2em;
+}
