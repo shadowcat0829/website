@@ -42,12 +42,29 @@
 </head>
 
 <body class="landing is-preload">
-	<script src="assets/js/jquery-3.7.1.min.js"></script>
 	<!-- Page Wrapper -->
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<header id="header" class="alt"></header>
+		<header id="header" class="alt">
+			<h1><a href="index.html">IFIT TECH - Foot Health Solutions Provider</a></h1>
+			<nav id="nav">
+				<ul>
+					<li class="special">
+						<a href="#menu" class="menuToggle"><span>Menu</span></a>
+						<div id="menu">
+							<ul>
+								<li><a href="index.html">Home</a></li>
+								<li><a href="devices.html">Devices</a></li>
+								<!-- <li><a href="service.html">Service</a></li> -->
+								<!-- <li><a href="elements.html">Elements</a></li> -->
+								<li><a href="aboutus.html">About Us</a></li>
+							</ul>
+						</div>
+					</li>
+				</ul>
+			</nav>
+		</header>
 
 		<!-- Banner -->
 		<section id="banner">
@@ -59,7 +76,7 @@
 					steps.</p>
 				<ul class="actions special">
 					<li><a href="devices.html" class="button primary">Our Deivces</a></li>
-					<li><a href="service.html" class="button">Our Service</a></li>
+					<li><a href="aboutus.html" class="button">About Us</a></li>
 				</ul>
 			</div>
 			<a href="#two" class="more scrolly">Learn More</a>
@@ -87,7 +104,7 @@
 		<!-- Two -->
 		<section id="two" class="wrapper alt style2">
 			<section class="spotlight">
-				<div class="image"><img src="images/pic01.jpg" alt="" /></div>
+				<div class="image"><img src="images/professional.jpg" alt="" /></div>
 				<div class="content">
 					<h2>For Professionals</h2>
 					<p>Smart Tools for Foot Health Businesses
@@ -96,7 +113,7 @@
 				</div>
 			</section>
 			<section class="spotlight">
-				<div class="image"><img src="images/pic02.jpg" alt="" /></div>
+				<div class="image"><img src="images/consumer.jpg" alt="" /></div>
 				<div class="content">
 					<h2>For Consumers</h2>
 					<p>Personalized Care for Every Step
@@ -105,7 +122,7 @@
 				</div>
 			</section>
 			<section class="spotlight">
-				<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+				<div class="image"><img src="images/digital.jpg" alt="" /></div>
 				<div class="content">
 					<h2>Digital Ecosystem</h2>
 					<p>One Platform, Complete Control
@@ -114,7 +131,7 @@
 				</div>
 			</section>
 			<section class="spotlight">
-				<div class="image"><img src="images/pic03.jpg" alt="" /></div>
+				<div class="image"><img src="images/global.jpg" alt="" /></div>
 				<div class="content">
 					<h2>Global Presence</h2>
 					<p>Trusted Worldwide<br />
@@ -137,29 +154,29 @@
 					<li class="icon solid fa-laptop-medical">
 						<h4>Foot Plantar Scanner</h4>
 						<div class="image fit"><img src="images/devices/xsol_preview.jpg"
-								alt="3D Laser Foot Plantar Scanner"  /></div>
+								alt="3D Laser Foot Plantar Scanner" /></div>
 						<p>A specialized plantar scanner, capturing detailed sole measurements for
 							tailored.</p>
 					</li>
 					<li class="icon solid fa-laptop-medical">
 						<h4>Full-Foot Scanner</h4>
 						<div class="image fit"><img src="images/devices/xpod_preview.jpg"
-								alt="3D Laser Foot Plantar Scanner"  /></div>
+								alt="3D Laser Foot Plantar Scanner" /></div>
 						<p>A state-of-the-art 3D full-foot scanner, providing comprehensive insights into
 							foot structure.</p>
 					</li>
 					<li class="icon solid fa-laptop-medical">
 						<h4>WatMat Series</h4>
-						<div class="image fit"><img src="images/devices/mat_preview.jpg" alt="3D Laser Foot Plantar Scanner"
-								 /></div>
+						<div class="image fit"><img src="images/devices/mat_preview.jpg"
+								alt="3D Laser Foot Plantar Scanner" /></div>
 						<p>An intuitive diagnostic tool that accurately maps foot pressure
 							distribution
 							for informed assessments.</p>
 					</li>
 					<li class="icon solid fa-cloud-upload-alt">
 						<h4>CMS&CAD Platform</h4>
-						<div class="image fit"><img src="images/devices/software.jpg" alt="3D Laser Foot Plantar Scanner"
-								 /></div>
+						<div class="image fit"><img src="images/devices/software.jpg"
+								alt="3D Laser Foot Plantar Scanner" /></div>
 						<p>One-stop Customer Management System and CAD software.</p>
 					</li>
 					<!-- <li class="icon fa-heart">
@@ -186,7 +203,7 @@
 				</header>
 				<ul class="actions stacked">
 					<li><a href="devices.html" class="button fit primary">Our Devices</a></li>
-					<li><a href="service.html" class="button fit">Our Service</a></li>
+					<li><a href="aboutus.html" class="button fit">About Us</a></li>
 				</ul>
 			</div>
 		</section>
@@ -196,6 +213,13 @@
 	</div>
 
 	<!-- Scripts -->
+	<script src="assets/js/jquery-3.7.1.min.js"></script>
+	<script src="assets/js/jquery.scrollex.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
 	<script>
 		$(function () {
 			/*公共部分
@@ -203,7 +227,7 @@
 			* footer CopyRight
 			*/
 			// $(".headerpage").load("load/header.html");/*浏览器容易引起跨域问题*/
-			$("#header").load("header.html");
+			// $("#header").load("header.html");
 			$("#footer").load("footer.html");
 		});
 	</script>

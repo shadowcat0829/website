@@ -1,3 +1,9 @@
+table {
+    /* table-layout: auto; */
+    width: 100%;
+    table-layout: fixed;
+}
+
 table td {
     vertical-align: middle;
     text-align: center;
@@ -24,23 +30,26 @@ table td:first-child {
     text-align: left;
 }
 
-table td.image {
-    text-align: center;
+table img {
+    max-width: 100%;
+    /* 图片最大宽度为父级单元格的100% */
+    height: auto;
+    /* 高度自动调整以保持纵横比 */
 }
 
 h3 {
     text-align: center;
 }
 
-.forbidden{
-	width: 30%;
-	height: 30%;
-	object-fit: cover;
+.forbidden {
+    width: 30%;
+    height: 30%;
+    object-fit: cover;
 }
 
 /* images cover*/
-.cover{
+/* img.cover{
 	width: 100%;
 	height: 100%;
-	object-fit: cover;
-}
+	object-fit: contain;
+} */
