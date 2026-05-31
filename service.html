@@ -14,39 +14,56 @@
     </noscript>
     <style>
         /* 强制重置所有 Swiper 容器的宽度 */
-    .xsoleCAD, .zipSole, .orthoxpert {
-        width: 100% !important;      /* 宽度随父容器 100% */
-        max-width: 748px !important; /* 最大不超 748px */
-        height: auto !important;     /* 必须设为 auto，由比例决定高度 */
-        margin: 1em auto !important; /* 居中 */
-        aspect-ratio: auto !important; /* 允许根据图片自动调整 */
-        overflow: hidden;
-    }
-
-    /* 确保 Swiper 内部每一项和图片都随之缩放 */
-    .swiper-slide {
-        width: 100% !important;
-        height: auto !important;
-    }
-
-    .swiper-slide img {
-        width: 100% !important;      /* 图片撑满容器宽度 */
-        height: auto !important;     /* 高度自动缩放，不拉伸 */
-        display: block;
-        object-fit: contain;         /* 确保整张图片可见 */
-    }
-
-    /* 针对 Spectral 模板 Spotlight 布局的移动端适配 */
-    @media screen and (max-width: 1280px) {
-        .spotlight {
-            flex-direction: column !important; /* 窄屏时让图片和文字上下排布 */
+        .xsoleCAD,
+        .zipSole,
+        .orthoxpert {
+            width: 100% !important;
+            /* 宽度随父容器 100% */
+            max-width: 748px !important;
+            /* 最大不超 748px */
+            height: auto !important;
+            /* 必须设为 auto，由比例决定高度 */
+            margin: 1em auto !important;
+            /* 居中 */
+            aspect-ratio: auto !important;
+            /* 允许根据图片自动调整 */
+            overflow: hidden;
         }
-        .spotlight .image, .spotlight .swiper {
-            width: 100% !important;  /* 占满全宽 */
+
+        /* 确保 Swiper 内部每一项和图片都随之缩放 */
+        .swiper-slide {
+            width: 100% !important;
+            height: auto !important;
         }
-    }
+
+        .swiper-slide img {
+            width: 100% !important;
+            /* 图片撑满容器宽度 */
+            height: auto !important;
+            /* 高度自动缩放，不拉伸 */
+            display: block;
+            object-fit: contain;
+            /* 确保整张图片可见 */
+        }
+
+        /* 针对 Spectral 模板 Spotlight 布局的移动端适配 */
+        @media screen and (max-width: 1280px) {
+            .spotlight {
+                flex-direction: column !important;
+                /* 窄屏时让图片和文字上下排布 */
+            }
+
+            .spotlight .image,
+            .spotlight .swiper {
+                width: 100% !important;
+                /* 占满全宽 */
+            }
+        }
     </style>
-    <!-- Facebook Pixel Code --><script>!function(f,b,e,v,n,t,s){if(f.fbq)return;n=f.fbq=function(){n.callMethod?n.callMethod.apply(n,arguments):n.queue.push(arguments)};if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';n.queue=[];t=b.createElement(e);t.async=!0;t.src=v;s=b.getElementsByTagName(e)[0];s.parentNode.insertBefore(t,s)}(window,document,'script','https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '967870629265656'); fbq('track', 'PageView');</script><noscript> <img height="1" width="1" src="https://www.facebook.com/tr?id=967870629265656&ev=PageView&noscript=1"/></noscript><!-- End Facebook Pixel Code -->
+    <!-- Facebook Pixel Code -->
+    <script>!function (f, b, e, v, n, t, s) { if (f.fbq) return; n = f.fbq = function () { n.callMethod ? n.callMethod.apply(n, arguments) : n.queue.push(arguments) }; if (!f._fbq) f._fbq = n; n.push = n; n.loaded = !0; n.version = '2.0'; n.queue = []; t = b.createElement(e); t.async = !0; t.src = v; s = b.getElementsByTagName(e)[0]; s.parentNode.insertBefore(t, s) }(window, document, 'script', 'https://connect.facebook.net/en_US/fbevents.js'); fbq('init', '967870629265656'); fbq('track', 'PageView');</script>
+    <noscript> <img height="1" width="1"
+            src="https://www.facebook.com/tr?id=967870629265656&ev=PageView&noscript=1" /></noscript><!-- End Facebook Pixel Code -->
 </head>
 
 <body class="is-preload">
@@ -78,101 +95,95 @@
                     </ul>
                 </div>
             </section>
-            <section id="CAD" class="wrapper alt style2">
-                <section class="spotlight">
-                    <div class="swiper xsoleCAD">
-                        <div class="swiper-wrapper" id="xsoleCAD-swipper">
-                            <a data-lg-size="748-405" href="images/gallery/xsoleCAD/isoleCAD-x_1.jpg"
-                                class="swiper-slide">
-                                <img src="images/gallery/xsoleCAD/isoleCAD-x_1.jpg" />
-                            </a>
-                            <a data-lg-size="748-405" href="images/gallery/xsoleCAD/isoleCAD-x_2.jpg"
-                                class="swiper-slide">
-                                <img src="images/gallery/xsoleCAD/isoleCAD-x_2.jpg" />
-                            </a>
-                            <a data-lg-size="748-405" href="images/gallery/xsoleCAD/isoleCAD-x_3.jpg"
-                                class="swiper-slide">
-                                <img src="images/gallery/xsoleCAD/isoleCAD-x_3.jpg" />
-                            </a>
-                            <a data-lg-size="748-405" href="images/gallery/xsoleCAD/isoleCAD-x_4.jpg"
-                                class="swiper-slide">
-                                <img src="images/gallery/xsoleCAD/isoleCAD-x_4.jpg" />
-                            </a>
-                        </div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
-                    <div class="content">
-                        <h3>isoleCAD-X</h3>
-                        <p>The orthotics CAD design that comes with our equipment is feature-rich and easy to operate,
-                            which can greatly improve doctors' work efficiency.</p>
-                    </div>
-                </section>
-                <section class="spotlight">
-                    <div class="swiper zipSole">
-                        <div class="swiper-wrapper" id="zipSole-swipper">
-                            <a data-lg-size="748-405" href="images/gallery/zipsole/zipsole_1.jpg" class="swiper-slide">
-                                <img src="images/gallery/zipsole/zipsole_1.jpg" />
-                            </a>
-                            <a data-lg-size="748-405" href="images/gallery/zipsole/zipsole_2.jpg" class="swiper-slide">
-                                <img src="images/gallery/zipsole/zipsole_2.jpg" />
-                            </a>
-                            <a data-lg-size="748-405" href="images/gallery/zipsole/zipsole_3.jpg" class="swiper-slide">
-                                <img src="images/gallery/zipsole/zipsole_3.jpg" />
-                            </a>
-                        </div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
-                    <div class="content">
-                        <h3>zipSole</h3>
-                        <p>The online version of isoleCAD-X, is more intelligent and automated.</p>
-                    </div>
-                </section>
-                <section class="spotlight">
-                    <div class="swiper orthoxpert">
-                        <div class="swiper-wrapper" id="orthoxpert-swipper">
-                            <a data-lg-size="748-464" href="images/gallery/orthoxpert/orthoxpert_1.jpg"
-                                class="swiper-slide">
-                                <img src="images/gallery/orthoxpert/orthoxpert_1.jpg" />
-                            </a>
-                            <a data-lg-size="748-464" href="images/gallery/orthoxpert/orthoxpert_2.jpg"
-                                class="swiper-slide">
-                                <img src="images/gallery/orthoxpert/orthoxpert_2.jpg" />
-                            </a>
-                        </div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
-                    </div>
-                    <div class="content">
-                        <h3>Orthoxpert</h3>
-                        <p>An online information management platform that enables web-based management of
-                            devices, customer information, and foot data. It also provides a customizable web-based
-                            scanning interface to help partners build their own technology brands.</p>
-                    </div>
-                </section>
-            </section>
             <section class="spotlight">
-                    <div class="swiper cooperation">
-                        <div class="swiper-wrapper" id="cooperation">
-                            <a data-lg-size="748-464" href="images/gallery/cooperation/cooperation.png"
-                                class="swiper-slide">
-                                <img src="images/gallery/cooperation/cooperation.png" />
-                            </a>
-                            <!-- <a data-lg-size="748-464" href="images/gallery/orthoxpert/orthoxpert_2.jpg"
+                <div class="swiper cooperation">
+                    <div class="swiper-wrapper" id="cooperation-swipper">
+                        <a data-lg-size="748-464" href="images/gallery/cooperation/cooperation.png"
+                            class="swiper-slide">
+                            <img src="images/gallery/cooperation/cooperation.png" />
+                        </a>
+                        <!-- <a data-lg-size="748-464" href="images/gallery/orthoxpert/orthoxpert_2.jpg"
                                 class="swiper-slide">
                                 <img src="images/gallery/orthoxpert/orthoxpert_2.jpg" />
                             </a> -->
-                        </div>
-                        <div class="swiper-button-prev"></div>
-                        <div class="swiper-button-next"></div>
                     </div>
-                    <div class="content">
-                        <h3>Cooperation</h3>
-                        <p>Our platform provides open, stable, and secure APIs that enable seamless integration with third-party systems and services. In the healthcare and information management industry, we have already connected with multiple partners across Canada and internationally, supporting efficient data exchange and collaborative workflows.
-Working closely with our partners, we have successfully co-developed a wide range of supporting information management systems, including healthcare operations platforms, client management systems, reporting dashboards, workflow automation tools, and industry-specific digital solutions. Our flexible architecture and collaborative development approach allow partners to rapidly build, customize, and expand solutions based on real business needs while maintaining long-term stability and scalability.</p>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="content">
+                    <h3>Cooperation</h3>
+                    <p>We offer secure APIs for seamless third-party integration. Partnering globally in healthcare and
+                        info-management, we co-develop custom systems from operations to automation, ensuring
+                        scalability and growth.</p>
+                </div>
+            </section>
+            <section class="spotlight">
+                <div class="swiper xsoleCAD">
+                    <div class="swiper-wrapper" id="xsoleCAD-swipper">
+                        <a data-lg-size="748-405" href="images/gallery/xsoleCAD/isoleCAD-x_1.jpg" class="swiper-slide">
+                            <img src="images/gallery/xsoleCAD/isoleCAD-x_1.jpg" />
+                        </a>
+                        <a data-lg-size="748-405" href="images/gallery/xsoleCAD/isoleCAD-x_2.jpg" class="swiper-slide">
+                            <img src="images/gallery/xsoleCAD/isoleCAD-x_2.jpg" />
+                        </a>
+                        <a data-lg-size="748-405" href="images/gallery/xsoleCAD/isoleCAD-x_3.jpg" class="swiper-slide">
+                            <img src="images/gallery/xsoleCAD/isoleCAD-x_3.jpg" />
+                        </a>
+                        <a data-lg-size="748-405" href="images/gallery/xsoleCAD/isoleCAD-x_4.jpg" class="swiper-slide">
+                            <img src="images/gallery/xsoleCAD/isoleCAD-x_4.jpg" />
+                        </a>
                     </div>
-                </section>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="content">
+                    <h3>isoleCAD-X</h3>
+                    <p>The orthotics CAD design that comes with our equipment is feature-rich and easy to operate,
+                        which can greatly improve doctors' work efficiency.</p>
+                </div>
+            </section>
+            <section class="spotlight">
+                <div class="swiper zipSole">
+                    <div class="swiper-wrapper" id="zipSole-swipper">
+                        <a data-lg-size="748-405" href="images/gallery/zipsole/zipsole_1.jpg" class="swiper-slide">
+                            <img src="images/gallery/zipsole/zipsole_1.jpg" />
+                        </a>
+                        <a data-lg-size="748-405" href="images/gallery/zipsole/zipsole_2.jpg" class="swiper-slide">
+                            <img src="images/gallery/zipsole/zipsole_2.jpg" />
+                        </a>
+                        <a data-lg-size="748-405" href="images/gallery/zipsole/zipsole_3.jpg" class="swiper-slide">
+                            <img src="images/gallery/zipsole/zipsole_3.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="content">
+                    <h3>zipSole</h3>
+                    <p>The online version of isoleCAD-X, is more intelligent and automated.</p>
+                </div>
+            </section>
+            <section class="spotlight">
+                <div class="swiper orthoxpert">
+                    <div class="swiper-wrapper" id="orthoxpert-swipper">
+                        <a data-lg-size="748-464" href="images/gallery/orthoxpert/orthoxpert_1.jpg"
+                            class="swiper-slide">
+                            <img src="images/gallery/orthoxpert/orthoxpert_1.jpg" />
+                        </a>
+                        <a data-lg-size="748-464" href="images/gallery/orthoxpert/orthoxpert_2.jpg"
+                            class="swiper-slide">
+                            <img src="images/gallery/orthoxpert/orthoxpert_2.jpg" />
+                        </a>
+                    </div>
+                    <div class="swiper-button-prev"></div>
+                    <div class="swiper-button-next"></div>
+                </div>
+                <div class="content">
+                    <h3>Orthoxpert</h3>
+                    <p>An online information management platform that enables web-based management of
+                        devices, customer information, and foot data. It also provides a customizable web-based
+                        scanning interface to help partners build their own technology brands.</p>
+                </div>
             </section>
         </article>
 
