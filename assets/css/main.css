@@ -2616,6 +2616,9 @@ input[type="button"].primary,
 button.primary,
 .button.primary {
 	background-color: #ed4933;
+	border: 1pt solid #000 !important;
+	border: 1pt solid #242c34 !important;
+	border: 1pt solid rgba(255, 255, 255, 0.5) !important;
 	box-shadow: none !important;
 	color: #ffffff !important;
 }
@@ -2634,6 +2637,95 @@ input[type="button"].primary:active,
 button.primary:active,
 .button.primary:active {
 	background-color: #eb341c !important;
+}
+
+input[type="submit"].primary.blue,
+input[type="reset"].primary.blue,
+input[type="button"].primary.blue,
+button.primary.blue,
+.button.primary.blue {
+	background-color: #0078d7;
+	border: 1pt solid #000 !important;
+	border: 1pt solid #242c34 !important;
+	border: 1pt solid rgba(255, 255, 255, 0.5) !important;
+	box-shadow: none !important;
+	color: #ffffff !important;
+}
+
+input[type="submit"].primary.blue:hover,
+input[type="reset"].primary.blue:hover,
+input[type="button"].primary.blue:hover,
+button.primary.blue:hover,
+.button.primary.blue:hover {
+	background-color: #1290f0 !important;
+}
+
+input[type="submit"].primary.blue:active,
+input[type="reset"].primary.blue:active,
+input[type="button"].primary.blue:active,
+button.primary.blue:active,
+.button.primary.blue:active {
+	background-color: #005bb5 !important;
+}
+
+/* Transition Color 1 (Red-Purple) */
+input[type="submit"].primary.transition-1,
+input[type="reset"].primary.transition-1,
+input[type="button"].primary.transition-1,
+button.primary.transition-1,
+.button.primary.transition-1 {
+	background-color: #9e596a;
+	border: 1pt solid #000 !important;
+	border: 1pt solid #242c34 !important;
+	border: 1pt solid rgba(255, 255, 255, 0.5) !important;
+	box-shadow: none !important;
+	color: #ffffff !important;
+}
+
+input[type="submit"].primary.transition-1:hover,
+input[type="reset"].primary.transition-1:hover,
+input[type="button"].primary.transition-1:hover,
+button.primary.transition-1:hover,
+.button.primary.transition-1:hover {
+	background-color: #af6a7b !important;
+}
+
+input[type="submit"].primary.transition-1:active,
+input[type="reset"].primary.transition-1:active,
+input[type="button"].primary.transition-1:active,
+button.primary.transition-1:active,
+.button.primary.transition-1:active {
+	background-color: #8d4859 !important;
+}
+
+/* Transition Color 2 (Purple-Blue) */
+input[type="submit"].primary.transition-2,
+input[type="reset"].primary.transition-2,
+input[type="button"].primary.transition-2,
+button.primary.transition-2,
+.button.primary.transition-2 {
+	background-color: #4f69a1;
+	border: 1pt solid #000 !important;
+	border: 1pt solid #242c34 !important;
+	border: 1pt solid rgba(255, 255, 255, 0.5) !important;
+	box-shadow: none !important;
+	color: #ffffff !important;
+}
+
+input[type="submit"].primary.transition-2:hover,
+input[type="reset"].primary.transition-2:hover,
+input[type="button"].primary.transition-2:hover,
+button.primary.transition-2:hover,
+.button.primary.transition-2:hover {
+	background-color: #607ab2 !important;
+}
+
+input[type="submit"].primary.transition-2:active,
+input[type="reset"].primary.transition-2:active,
+input[type="button"].primary.transition-2:active,
+button.primary.transition-2:active,
+.button.primary.transition-2:active {
+	background-color: #3e5890 !important;
 }
 
 input[type="submit"].disabled,
@@ -3753,9 +3845,9 @@ body.is-menu-visible #menu {
 	-ms-justify-content: center;
 	justify-content: center;
 	cursor: default;
-	height: 100vh;
-	min-height: 35em;
-	overflow: hidden;
+	height: auto;
+	min-height: 100vh;
+	padding-bottom: 8.5em;
 	position: relative;
 	text-align: center;
 }
